@@ -1,0 +1,37 @@
+@import 'helpers/reset'
+@import 'helpers/variables'
+@import 'blocks/__formLogin/*'
+@import 'blocks/__inputText/*'
+@import 'blocks/__title/*'
+@import 'blocks/__button/*'
+@import 'https://fonts.googleapis.com/css?family=Roboto+Slab'
+
+body 
+  background-color: $primary-color 
+  font-family: 'Roboto Slab', serif  
+
+.container 
+  width: 100%
+  max-width: 1000px
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-around
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%,-50%)
+
+.formLogin
+  max-width: 400px
+  max-height: 300px 
+  padding: 1em
+  justify-content: center
+
+  .title
+    padding: .5em
+
+  .inputText
+    margin: .5em
+
+  .button
+    align-self: flex-end
